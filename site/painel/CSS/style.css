@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	background: rgb(225, 225, 225);
+}
+
+
+.box-login{
+	box-shadow: 10px 10px 5px rgb(200, 200, 200);
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 2%;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+
+}
+.box-login h2{
+	text-align: center;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin: 10px 0;
+	color: black;
+}
+
+
+.box-login input{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 8px;
+}
+
+.box-login input[type=submit]{
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 8px;
+	background: #00bfa5;
+	color: white;
+	border: 0;
+
+}
+
+.box-login input[name=user],
+.box-login input[name=password]{
+	background: #f9fbe7;
+}
+
+/*Box erro do painel*/
+
+.erro-box{
+	width:100%;
+	padding: 8px 2%;
+	text-align: center;
+	background: #F75353;
+	font-size: 15px;
+}
